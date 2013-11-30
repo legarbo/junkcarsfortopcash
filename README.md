@@ -6,11 +6,8 @@ h2. Diagnostics
 
 This application was built with recipes that are known to work together.
 
-This application was built with preferences that are NOT known to work together.
 
-If the application doesn't work as expected, please "report an issue":https://github.com/RailsApps/rails_apps_composer/issues and include these diagnostics:
 
-We'd also like to know if you've found combinations of recipes or preferences that do work together.
 
 Recipes:
 ["apps4", "controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
@@ -44,21 +41,11 @@ h2. Email
 
 The application is configured to send email using a Gmail account.
 
-h2. Getting Started
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 h2. Documentation and Support
 
 This is the only documentation.
 
-h4. Issues
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. Similar Projects
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 h2. Contributing
 
@@ -71,10 +58,4 @@ If you make improvements to this application, please share with others.
 
 If you add functionality to this application, create an alternative implementation, or build an application that is similar, please contact me and I'll add a note to the README so that others can find your work.
 
-h2. Credits
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-h2. License
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
