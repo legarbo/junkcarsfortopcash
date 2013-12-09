@@ -13,9 +13,9 @@ class Contact < ActiveRecord::Base
 
   def update_spreadsheet
     connection = GoogleDrive.login(ENV["GMAIL_USERNAME"], ENV["GMAIL_PASSWORD"])
-    ss = connection.spreadsheet_by_title('Learn-Rails-Example')
+    ss = connection.spreadsheet_by_title('JunkCarsForTopCash')
     if ss.nil?
-      ss = connection.create_spreadsheet('Learn-Rails-Example')
+      ss = connection.create_spreadsheet('JunkCarsForTopCash')
     end
     ws = ss.worksheets[0]
     last_row = 1 + ws.num_rows
